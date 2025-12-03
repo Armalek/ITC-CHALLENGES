@@ -1,0 +1,44 @@
+.reports-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.stat-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+}
+
+.stat-card.submitted {
+  background-color: #fce4ec;
+}
+
+.stat-card.pending {
+  background-color: #fce4ec;
+}
+
+.stat-card.late {
+  background-color: #fce4ec;
+}
+
+.stat-icon {
+  font-size: 32px;
+}
+
+.stat-content h4 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+  color: #333;
+}
+
+.stat-content p {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0 0 0;
+}

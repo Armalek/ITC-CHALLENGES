@@ -1,0 +1,24 @@
+.teams-progress-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+  margin-bottom: 20px;
+}
+
+.teams-progress-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin: 0 0 12px 0;
+}
+
+.progress-info {
+  font-size: 13px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.progress-info p {
+  margin: 0;
+}

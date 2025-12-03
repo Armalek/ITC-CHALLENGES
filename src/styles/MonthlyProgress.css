@@ -1,0 +1,60 @@
+.monthly-progress {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.monthly-progress h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 20px 0;
+  color: #333;
+}
+
+.chart-bars {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  height: 150px;
+  gap: 10px;
+}
+
+.bar-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  gap: 10px;
+}
+
+.bar {
+  width: 100%;
+  background: linear-gradient(to top, #f8bbd0, #fce4ec);
+  border-radius: 6px 6px 0 0;
+  min-height: 20px;
+}
+
+.bar-item span {
+  font-size: 12px;
+  color: #999;
+}
+
+.upload-report-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #fce4ec;
+  border: 1px solid #f8bbd0;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #d946a6;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.upload-report-btn:hover {
+  background-color: #f8bbd0;
+}

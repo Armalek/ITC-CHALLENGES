@@ -1,0 +1,46 @@
+.management-hub {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+}
+
+.hub-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.hub-items {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.hub-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 15px;
+  border-radius: 6px;
+  border-left: 4px solid #2196f3;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.hub-item:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transform: translateX(4px);
+}
+
+.hub-icon {
+  font-size: 24px;
+  flex-shrink: 0;
+}
+
+.hub-label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #333;
+}

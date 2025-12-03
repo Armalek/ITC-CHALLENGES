@@ -1,0 +1,92 @@
+.users-table-container {
+  overflow-x: auto;
+}
+
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.users-table thead {
+  background: #f5f5f5;
+}
+
+.users-table thead th {
+  padding: 1rem;
+  text-align: left;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  border-bottom: 1px solid #e0e0e0;
+  white-space: nowrap;
+}
+
+.users-table tbody tr {
+  border-bottom: 1px solid #e0e0e0;
+  transition: background 0.2s ease;
+}
+
+.users-table tbody tr:hover {
+  background: #fafafa;
+}
+
+.users-table tbody td {
+  padding: 1rem;
+  font-size: 0.875rem;
+  color: #1a1a1a;
+}
+
+.member-name {
+  font-weight: 500;
+}
+
+.role {
+  color: #666;
+}
+
+.level {
+  color: #666;
+}
+
+.last-active {
+  color: #999;
+}
+
+.action {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.view-profile-btn,
+.remove-btn {
+  padding: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.view-profile-btn {
+  color: #4285f4;
+}
+
+.view-profile-btn:hover {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+.remove-btn {
+  color: #f53b57;
+}
+
+.remove-btn:hover {
+  color: #d63447;
+  text-decoration: underline;
+}
